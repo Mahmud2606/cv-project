@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.main-div{
+    max-width: 1200px;
+}
+.container{
+    max-width: 600px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    padding: 20px;
+}
+.dumy-image{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+.header-contact{
+    float: right;
+    /* padding: 30px; */
+    margin-top: 25px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    width: 100%;
+    border: 3px solid black;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    margin: 20px auto;
+
+}
+/* ------------
+  personal information start 
+-------------------*/
+#personal-Information{
+
+}
+.content{
+  margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+   width: 70%;
+   float: left;
+}
+.common-hr{
+    border:1px solid black;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/* -----------
+education section start
+------------------*/
+.edu-templet-left{
+    width: 45%;
+    float: left;
+}
+.edu-templet-right{
+    width: 45%;
+    float: right;
+}
+
+/* -----------
+footer start
+------------------*/
+.bottom-container{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.bottom-container a{
+ text-decoration: none;
+ color: white;
+ margin: 20px;   
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
+.bottom-container a:hover{
+ text-decoration: underline;
+ color: tomato;
+}
+
